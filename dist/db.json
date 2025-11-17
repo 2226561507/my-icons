@@ -1423,5 +1423,10 @@
     "name": "iStoreOS-A",
     "sort": "vms",
     "course": ""
+  },
+  {
+    "name": "music_tag_web",
+    "sort": "docker",
+    "course": ""
   }
 ]
