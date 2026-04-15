@@ -4,3 +4,5 @@ iStoreOS-A
 Halo-A
 Halo-B
 music_tag_web
+1panel
+danmuapi
