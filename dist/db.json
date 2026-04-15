@@ -1429,4 +1429,14 @@
     "sort": "docker",
     "course": ""
   }
+  {
+    "name": "1panel",
+    "sort": "docker",
+    "course": ""
+  }
+  {
+    "name": "danmuapi",
+    "sort": "docker",
+    "course": ""
+  }
 ]
