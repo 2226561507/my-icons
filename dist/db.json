@@ -1428,15 +1428,15 @@
     "name": "music_tag_web",
     "sort": "docker",
     "course": ""
-  }
+  },
   {
     "name": "1panel",
     "sort": "docker",
     "course": ""
-  }
+  },
   {
     "name": "danmuapi",
     "sort": "docker",
     "course": ""
-  }
+  },
 ]
