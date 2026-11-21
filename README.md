@@ -4,20 +4,15 @@
 
 ## 图标地址
 
-打开页面点击图标即可复制地址，也可直接拼接：
+打开页面点击图标即可复制地址。国内访问推荐用下方 **EdgeOne Makers 一键部署**，部署完成后即可获得你自己的国内访问地址。
 
-- 图标直链前缀：`https://cdn.jsdelivr.net/gh/2226561507/my-icons@main/dist/icon/`
-- 示例：`https://cdn.jsdelivr.net/gh/2226561507/my-icons@main/dist/icon/Moviepilot-A.png`
+## 国内图标一键部署
 
-## 一键部署
-
-两个平台都会自动执行 `npm install` + `npm run build`，产物目录为 `dist`。
+点击按钮即可把本项目一键部署到国内节点，平台自动执行 `npm install` + `npm run build`，产物目录为 `dist`，部署完成即可获得国内可访问的图标站地址。
 
 [![使用 EdgeOne Makers 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2F2226561507%2Fmy-icons&output-directory=.%2Fdist&install-command=npm%20install&build-command=npm%20run%20build)
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/2226561507/my-icons)
-
-在线预览（替换成你的部署地址）：https://siriling.github.io/my-icons/dist
 
 ## 使用
 
