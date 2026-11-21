@@ -36,4 +36,4 @@ npm run serve
 2. 在 `public/db.json` 追加一条：`{ "name": "图标名", "sort": "docker", "course": "" }`
 3. 重新构建
 
-> 不要只改 `dist/`：构建会先清空它，只改那里的内容会被覆盖。
+> `dist/` 是构建产物，已加入 `.gitignore`，不用手动修改；点按钮部署时平台会自动构建生成。
