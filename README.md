@@ -1,66 +1,44 @@
 # My Icon
-定期更新新图标,看新上传的图标.txt
 
-# 目录
+提供在线图标链接，供个人 NAS 设备显示使用。定期更新，新增图标见 `新上传的图标.txt`。禁止商用。
 
-[一、简介](#一简介)
+## 图标地址
 
-[二、展示](#二链接)
+打开页面点击图标即可复制地址，也可直接拼接：
 
-[三、使用](#三使用)
+- 图标直链前缀：`https://cdn.jsdelivr.net/gh/2226561507/my-icons@main/dist/icon/`
+- 示例：`https://cdn.jsdelivr.net/gh/2226561507/my-icons@main/dist/icon/Moviepilot-A.png`
 
-[四、分类](#四分类)
+## 一键部署
 
-[五、本地运行](#五本地运行)
+两个平台都会自动执行 `npm install` + `npm run build`，产物目录为 `dist`。
 
-[六、Docker部署](#六Docker部署)
+[![使用 EdgeOne Makers 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2F2226561507%2Fmy-icons&output-directory=.%2Fdist&install-command=npm%20install&build-command=npm%20run%20build)
 
-# 一、简介
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/2226561507/my-icons)
 
-基于[heizicao/My Icon](https://gitee.com/heizicao/my-icon)修改，提供在线图标链接，用于个人NAS设备显示使用，禁止用于商业用途
+在线预览（替换成你的部署地址）：https://siriling.github.io/my-icons/dist
 
-# 二、展示
+## 使用
 
-https://siriling.github.io/my-icons/dist
+- 点击图标复制 URL，点击文字查看部署教程
+- 打开 CDN 开关可切换为 CDN 链接
 
-![show](public/screenshot.png)
+## 分类
 
+Docker 容器 / 路由器 / 虚拟机 / 项目 / 其他
 
-# 三、使用
+## 本地运行
 
-- 点击相应图标即可获取URL
-
-- 点击相应图标即可查看部署教程
-
-- 打开CDN开关，可转换为CDN链接
-
-# 四、分类
-- Docker容器（docker）
-- 路由器（router）
-- 虚拟机（vms）
-- 项目（project）
-- 其他（other）
-
-# 五、本地运行
-
-下载安装node.js，在CMD运行以下两个命令，然后在浏览器打开http://localhost:8080
-
-```shell
+```bash
 npm install
 npm run serve
 ```
 
-# 六、Docker部署
+## 新增图标
 
-1. Docker部署Nginx服务
-2. 下载dist文件夹
-3. 放到Nginx的www文件夹中
-4. 将图标放入icon文件夹
-5. 修改db.json
+1. 把图片放进 `public/icon/`，文件名统一用小写 `.png`
+2. 在 `public/db.json` 追加一条：`{ "name": "图标名", "sort": "docker", "course": "" }`
+3. 重新构建
 
-
-
-
-
-
-
+> 不要只改 `dist/`：构建会先清空它，只改那里的内容会被覆盖。
