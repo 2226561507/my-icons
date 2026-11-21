@@ -1398,5 +1398,45 @@
     "name": "aaPanel",
     "sort": "vms",
     "course": ""
+  },
+  {
+    "name": "Moviepilot-A",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "Moviepilot-B",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "Halo-A",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "Halo-B",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "iStoreOS-A",
+    "sort": "vms",
+    "course": ""
+  },
+  {
+    "name": "music_tag_web",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "1panel",
+    "sort": "docker",
+    "course": ""
+  },
+  {
+    "name": "danmuapi",
+    "sort": "docker",
+    "course": ""
   }
 ]
