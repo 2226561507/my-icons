@@ -10,7 +10,7 @@
 
 点击按钮即可把本项目一键部署到国内节点，平台自动执行 `npm install` + `npm run build`，产物目录为 `dist`，部署完成即可获得国内可访问的图标站地址。
 
-[![使用 EdgeOne Makers 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2F2226561507%2Fmy-icons&output-directory=.%2Fdist&install-command=npm%20install&build-command=npm%20run%20build)
+[![使用 EdgeOne Makers 部署（国内）](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.tencentcloud.com/edgeone/makers/new?repository-url=https%3A%2F%2Fgithub.com%2F2226561507%2Fmy-icons&output-directory=.%2Fdist&install-command=npm%20install&build-command=npm%20run%20build)
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/2226561507/my-icons)
 
